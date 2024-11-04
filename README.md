@@ -4,7 +4,7 @@
   <br>
   <b>Ryujinx</b>
   <br>
-  <sub><sup><b>(REE-YOU-JINX)</b></sup></sub>
+  <sub><sup><b>(WAWWWWWW)</b></sup></sub>
   <br>
     <a href="https://github.com/GreemDev/Ryujinx/actions/workflows/release.yml">
         <img src="https://github.com/GreemDev/Ryujinx/actions/workflows/release.yml/badge.svg"
@@ -17,9 +17,7 @@
 </h1>
 
 <p align="center">
-  Ryujinx is an open-source Nintendo Switch emulator, originally created by gdkchan, written in C#.
-  This emulator aims at providing excellent accuracy and performance, a user-friendly interface and consistent builds.
-  It was written from scratch and development on the project began in September 2017.
+  I'm so scared of changing the code it's unreal what these devs have done. 
   Ryujinx is available on Github under the <a href="https://github.com/GreemDev/Ryujinx/blob/master/LICENSE.txt" target="_blank">MIT license</a>.
   <br />
 </p>
@@ -79,7 +77,7 @@ If you wish to build the emulator yourself, follow these steps:
 ### Step 1
 
 Install the [.NET 8.0 (or higher) SDK](https://dotnet.microsoft.com/download/dotnet/8.0).
-Make sure your SDK version is higher or equal to the required version specified in [global.json](global.json). 
+Make sure your SDK version is higher or equal to the required version specified in [global.json](global.json).
 
 ### Step 2
 
@@ -108,7 +106,7 @@ This folder is located in the user folder, which can be accessed by clicking `Op
   It translates the ARM code to a custom IR, performs a few optimizations, and turns that into x86 code.
   There are three memory manager options available depending on the user's preference, leveraging both software-based (slower) and host-mapped modes (much faster).
   The fastest option (host, unchecked) is set by default.
-  Ryujinx also features an optional Profiled Persistent Translation Cache, which essentially caches translated functions so that they do not need to be translated every time the game loads. 
+  Ryujinx also features an optional Profiled Persistent Translation Cache, which essentially caches translated functions so that they do not need to be translated every time the game loads.
   The net result is a significant reduction in load times (the amount of time between launching a game and arriving at the title screen) for nearly every game.
   NOTE: This feature is enabled by default in the Options menu > System tab.
   You must launch the game at least twice to the title screen or beyond before performance improvements are unlocked on the third launch!
